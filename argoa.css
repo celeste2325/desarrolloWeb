@@ -1,0 +1,146 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body{
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	background-color: white;
+
+}
+
+/* header */
+header{
+width: 100%;
+height: 200px;
+background-color: #165570;
+position: relative;
+}
+
+#logoHeader{
+width: 250px;
+height: 150px;
+position: absolute;
+left:  30px;
+top: 50px;
+position: relative;
+}
+
+#logoHeader img{
+width: 100%;
+position: absolute;
+top: 3px;
+right: 9px;
+}
+/* header */
+
+/* nav */
+
+nav{
+	height: 50px;
+	background-color: #143C4D;
+	}
+ul{
+	height: inherit;
+	display: flex;
+	justify-content: center;
+	
+}
+ul a{
+	height: inherit;
+	display: flex;
+	align-items: center;
+	text-decoration: none;	
+}
+
+ul li{
+list-style: none;
+font-family: verdana, geneva, sans-serif;
+font-size: 15px;
+color: white;
+font-weight: bold;
+margin-right: 20px;
+/* background-color: #6BA9C3; */
+/* box-shadow: 1px 1px 10px black; */
+/* border: 1px solid transparent; */
+}
+
+ul li:hover{
+	background-color: black;
+}
+/* /nav */
+
+/* main */
+main{
+width: 100%;
+background-color: #E6DAE8;
+box-sizing: border-box;
+padding: 10px;
+}
+h2,h3{
+	margin: 10px 0;
+}
+
+.principal{
+height: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+#contenido{
+width: 70%;
+height: 100%
+}
+
+.aside-article{
+width: 30%;
+height: inherit;
+}
+
+aside{
+background: url("imagenes/taxi.jpg") no-repeat;
+margin-bottom: 10px;
+}
+article{
+background: url("imagenes/maldivas.jpg") no-repeat;
+}
+aside, article{
+height: 49%;
+background-size: cover;
+}
+
+#banner{
+height:90px;
+background: url("imagenes/muelle.jpg") black no-repeat;
+background-size: cover;
+}
+/* main */
+
+/* footer */
+footer{
+background-color: #165570;
+width: 100%;
+height: 150px;
+display: grid;
+grid-row: repeat(2,1fr);
+padding: 20px;
+padding-bottom: 10px;
+
+}
+#logoFooter{
+	justify-self: center;
+}
+.redesSociales{
+	justify-self:flex-end ;
+	align-self: flex-end;
+	width: 10%;
+	text-align: right;
+}
+.redesSociales img{
+	width: 40%;
+}
+/* /footer */
+
