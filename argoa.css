@@ -3,11 +3,12 @@
 	margin: 0;
 }
 
-body{
+.container{
 	width: 900px;
 	height: auto;
 	margin: 0 auto;
 	background-color: white;
+	position: relative;
 
 }
 
@@ -144,3 +145,24 @@ padding-bottom: 10px;
 }
 /* /footer */
 
+
+/* boton subir */
+
+.botonSubir{
+	border: 1px solid transparent;
+	/* float: right; */
+	position: absolute;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+	position: fixed;
+	bottom: 5%;
+	right: 10% ;
+	border-radius: 5px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	padding: 3px 20px;
+	box-shadow: 1px 1px 9px black;
+	cursor: pointer;
+
+}
+
+/* /boton subir */
